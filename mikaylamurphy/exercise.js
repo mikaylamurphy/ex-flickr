@@ -42,6 +42,7 @@ exercise.buildHtmlForImages = function(data){
         array += ' <img src=' + '"' + photo + '"' + '> ';
         
     })
+    console.log(array);
     return array;
 
 };
